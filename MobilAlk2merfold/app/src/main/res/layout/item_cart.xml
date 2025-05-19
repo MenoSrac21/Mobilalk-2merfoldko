@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bowling_lane_png_popular_light_wood_floor_background_displaying_images_for_bowling_lane_png_1920">
+
+
+    <TextView
+        android:id="@+id/tvCartProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pálya neve"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvCartQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lefoglalt órák száma: 1"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/tvCartPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ár"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>

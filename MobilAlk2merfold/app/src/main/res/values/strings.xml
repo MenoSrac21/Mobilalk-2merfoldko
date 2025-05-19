@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">bowling</string>
+    <string name="welcome_text">Üdvözlünk a Bowling Guru alkalmazásban!</string>
+    <string name="login_button_text">Bejelentkezés</string>
+    <string name="register_button_text">Regisztráció</string>
+    <string name="back_button_text">Vissza</string>">
+    <string name="default_web_client_id">251193400788-hufd6170akp4bj196gm18kla50n538pf.apps.googleusercontent.com</string>
+    <string name="guest_login_button_text">Vendégként belépés</string>
+    <string name="welcome_store">Bowling Alley guru</string>
+    <string name="exit">Kilépés</string>
+</resources>

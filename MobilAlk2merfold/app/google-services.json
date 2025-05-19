@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372533680903",
+    "project_id": "bowling-24dea",
+    "storage_bucket": "bowling-24dea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372533680903:android:da826ae519db29327403a2",
+        "android_client_info": {
+          "package_name": "com.example.bowling"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl5LP0I60A20FPmBeQ-UGzDj0SjvVgw3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

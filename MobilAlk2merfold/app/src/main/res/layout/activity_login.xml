@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/bowling_lane_png_popular_light_wood_floor_background_displaying_images_for_bowling_lane_png_1920"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Email mező -->
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <!-- Jelszó mező -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Jelszó"
+            android:inputType="textPassword"
+            android:minHeight="48dp" />
+
+        <!-- Bejelentkezés gomb -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bejelentkezés" />
+
+        <!-- Google bejelentkezési gomb -->
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleSignInButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <!-- Vendégként belépés gomb -->
+        <Button
+            android:id="@+id/guestLoginButton"
+            android:layout_width="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Vendégként belépés"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:text="Vissza" />
+
+    </LinearLayout>
+</ScrollView>
